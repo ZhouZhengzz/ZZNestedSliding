@@ -1,0 +1,374 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3B6A9B221F0C8FCE00A5176B /* Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B6A9B211F0C8FCE00A5176B /* Model.m */; };
+		3B7641E21E2617320061D383 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B7641E11E2617320061D383 /* main.m */; };
+		3B7641E51E2617320061D383 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B7641E41E2617320061D383 /* AppDelegate.m */; };
+		3B7641E81E2617320061D383 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B7641E71E2617320061D383 /* ViewController.m */; };
+		3B7641EB1E2617320061D383 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B7641E91E2617320061D383 /* Main.storyboard */; };
+		3B7641ED1E2617320061D383 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B7641EC1E2617320061D383 /* Assets.xcassets */; };
+		3B7641F01E2617320061D383 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B7641EE1E2617320061D383 /* LaunchScreen.storyboard */; };
+		3B7641F91E26226E0061D383 /* PrimaryTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B7641F81E26226E0061D383 /* PrimaryTableViewCell.m */; };
+		3B7641FC1E2625070061D383 /* PrimaryCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B7641FB1E2625070061D383 /* PrimaryCollectionViewCell.m */; };
+		3B9C73A91E46C8250038DE4B /* SecondLevelTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B9C73A81E46C8250038DE4B /* SecondLevelTableViewCell.m */; };
+		3B9C73AB1E4C0BE70038DE4B /* gold_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B9C73AA1E4C0BE70038DE4B /* gold_bg.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3B6A9B201F0C8FCE00A5176B /* Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Model.h; path = NestTest/Model.h; sourceTree = SOURCE_ROOT; };
+		3B6A9B211F0C8FCE00A5176B /* Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Model.m; path = NestTest/Model.m; sourceTree = SOURCE_ROOT; };
+		3B7641DD1E2617320061D383 /* NestTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NestTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B7641E11E2617320061D383 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3B7641E31E2617320061D383 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3B7641E41E2617320061D383 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3B7641E61E2617320061D383 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = ../ViewController.h; sourceTree = "<group>"; };
+		3B7641E71E2617320061D383 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = ../ViewController.m; sourceTree = "<group>"; };
+		3B7641EA1E2617320061D383 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3B7641EC1E2617320061D383 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3B7641EF1E2617320061D383 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3B7641F11E2617320061D383 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B7641F71E26226E0061D383 /* PrimaryTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PrimaryTableViewCell.h; path = ../PrimaryTableViewCell.h; sourceTree = "<group>"; };
+		3B7641F81E26226E0061D383 /* PrimaryTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PrimaryTableViewCell.m; path = ../PrimaryTableViewCell.m; sourceTree = "<group>"; };
+		3B7641FA1E2625070061D383 /* PrimaryCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PrimaryCollectionViewCell.h; path = ../PrimaryCollectionViewCell.h; sourceTree = "<group>"; };
+		3B7641FB1E2625070061D383 /* PrimaryCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PrimaryCollectionViewCell.m; path = ../PrimaryCollectionViewCell.m; sourceTree = "<group>"; };
+		3B9C73A71E46C8250038DE4B /* SecondLevelTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SecondLevelTableViewCell.h; path = ../SecondLevelTableViewCell.h; sourceTree = "<group>"; };
+		3B9C73A81E46C8250038DE4B /* SecondLevelTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SecondLevelTableViewCell.m; path = ../SecondLevelTableViewCell.m; sourceTree = "<group>"; };
+		3B9C73AA1E4C0BE70038DE4B /* gold_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = gold_bg.png; path = ../gold_bg.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3B7641DA1E2617320061D383 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3B6A9B231F0C909B00A5176B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3B9C73AA1E4C0BE70038DE4B /* gold_bg.png */,
+				3B6A9B201F0C8FCE00A5176B /* Model.h */,
+				3B6A9B211F0C8FCE00A5176B /* Model.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3B6A9B241F0C909B00A5176B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3B7641F71E26226E0061D383 /* PrimaryTableViewCell.h */,
+				3B7641F81E26226E0061D383 /* PrimaryTableViewCell.m */,
+				3B7641FA1E2625070061D383 /* PrimaryCollectionViewCell.h */,
+				3B7641FB1E2625070061D383 /* PrimaryCollectionViewCell.m */,
+				3B9C73A71E46C8250038DE4B /* SecondLevelTableViewCell.h */,
+				3B9C73A81E46C8250038DE4B /* SecondLevelTableViewCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3B6A9B251F0C909B00A5176B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3B7641E61E2617320061D383 /* ViewController.h */,
+				3B7641E71E2617320061D383 /* ViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3B7641D41E2617320061D383 = {
+			isa = PBXGroup;
+			children = (
+				3B7641DF1E2617320061D383 /* NestTest */,
+				3B7641DE1E2617320061D383 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3B7641DE1E2617320061D383 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3B7641DD1E2617320061D383 /* NestTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3B7641DF1E2617320061D383 /* NestTest */ = {
+			isa = PBXGroup;
+			children = (
+				3B6A9B231F0C909B00A5176B /* Model */,
+				3B6A9B241F0C909B00A5176B /* View */,
+				3B6A9B251F0C909B00A5176B /* Controller */,
+				3B7641E31E2617320061D383 /* AppDelegate.h */,
+				3B7641E41E2617320061D383 /* AppDelegate.m */,
+				3B7641E91E2617320061D383 /* Main.storyboard */,
+				3B7641EC1E2617320061D383 /* Assets.xcassets */,
+				3B7641EE1E2617320061D383 /* LaunchScreen.storyboard */,
+				3B7641F11E2617320061D383 /* Info.plist */,
+				3B7641E01E2617320061D383 /* Supporting Files */,
+			);
+			path = NestTest;
+			sourceTree = "<group>";
+		};
+		3B7641E01E2617320061D383 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3B7641E11E2617320061D383 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3B7641DC1E2617320061D383 /* NestTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B7641F41E2617320061D383 /* Build configuration list for PBXNativeTarget "NestTest" */;
+			buildPhases = (
+				3B7641D91E2617320061D383 /* Sources */,
+				3B7641DA1E2617320061D383 /* Frameworks */,
+				3B7641DB1E2617320061D383 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NestTest;
+			productName = NestTest;
+			productReference = 3B7641DD1E2617320061D383 /* NestTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3B7641D51E2617320061D383 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = zhouzheng;
+				TargetAttributes = {
+					3B7641DC1E2617320061D383 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = MLKY76PU29;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 3B7641D81E2617320061D383 /* Build configuration list for PBXProject "NestTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3B7641D41E2617320061D383;
+			productRefGroup = 3B7641DE1E2617320061D383 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3B7641DC1E2617320061D383 /* NestTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3B7641DB1E2617320061D383 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B9C73AB1E4C0BE70038DE4B /* gold_bg.png in Resources */,
+				3B7641F01E2617320061D383 /* LaunchScreen.storyboard in Resources */,
+				3B7641ED1E2617320061D383 /* Assets.xcassets in Resources */,
+				3B7641EB1E2617320061D383 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3B7641D91E2617320061D383 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B7641FC1E2625070061D383 /* PrimaryCollectionViewCell.m in Sources */,
+				3B7641F91E26226E0061D383 /* PrimaryTableViewCell.m in Sources */,
+				3B9C73A91E46C8250038DE4B /* SecondLevelTableViewCell.m in Sources */,
+				3B7641E81E2617320061D383 /* ViewController.m in Sources */,
+				3B6A9B221F0C8FCE00A5176B /* Model.m in Sources */,
+				3B7641E51E2617320061D383 /* AppDelegate.m in Sources */,
+				3B7641E21E2617320061D383 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3B7641E91E2617320061D383 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B7641EA1E2617320061D383 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3B7641EE1E2617320061D383 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B7641EF1E2617320061D383 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3B7641F21E2617320061D383 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3B7641F31E2617320061D383 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3B7641F51E2617320061D383 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Yaojin Dou (HK9KZR5X5Z)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = MLKY76PU29;
+				INFOPLIST_FILE = NestTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.ghs.app.NestTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "4c225b17-29b0-45f9-813d-b69e43b6be78";
+				PROVISIONING_PROFILE_SPECIFIER = GHS2016TestApps;
+			};
+			name = Debug;
+		};
+		3B7641F61E2617320061D383 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = MLKY76PU29;
+				INFOPLIST_FILE = NestTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.ghs.app.NestTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "4c225b17-29b0-45f9-813d-b69e43b6be78";
+				PROVISIONING_PROFILE_SPECIFIER = GHS2016TestApps;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3B7641D81E2617320061D383 /* Build configuration list for PBXProject "NestTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B7641F21E2617320061D383 /* Debug */,
+				3B7641F31E2617320061D383 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B7641F41E2617320061D383 /* Build configuration list for PBXNativeTarget "NestTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B7641F51E2617320061D383 /* Debug */,
+				3B7641F61E2617320061D383 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3B7641D51E2617320061D383 /* Project object */;
+}
